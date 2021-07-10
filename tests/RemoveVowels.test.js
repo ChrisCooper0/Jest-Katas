@@ -1,4 +1,4 @@
-const disemVowel = require("./RemoveVowels.js");
+const disemVowel = require("../RemoveVowels.js");
 
 test("removes all vowels", () => {
   expect(disemVowel("TestaeiouAEIOUString")).toBe("TstStrng");
