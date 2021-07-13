@@ -7,4 +7,9 @@ function repeatStr(n, s) {
   return str;
 }
 
+// Alternative solution
+// function repeatStr(n, s) {
+//   return s.repeat(n);
+// }
+
 module.exports = repeatStr;
