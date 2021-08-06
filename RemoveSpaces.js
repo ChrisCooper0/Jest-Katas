@@ -8,6 +8,11 @@ function noSpace(x) {
   return trimmed;
 }
 
+// Regex solution
+// function noSpace(x){
+//     return x.replace(/\s/g, '');
+//   }
+
 console.log(noSpace(" aa  bb  cc ")); // "aabbcc"
 
 module.exports = noSpace;
