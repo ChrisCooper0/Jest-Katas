@@ -36,4 +36,6 @@ function sum(digits) {
 console.log(sum("12345")); // 1 + 2 + 3 + 4 + 5 = 15
 console.log(sum(1)); // 1 = 1
 console.log(sum(12345)); // 1 + 2 + 3 + 4 + 5 = 15
-console.log(sum()); //
+console.log(sum()); // Empty string
+
+module.exports = sum;
