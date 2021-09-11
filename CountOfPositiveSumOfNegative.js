@@ -7,17 +7,24 @@ function countPositivesSumNegatives(input) {
   let positiveCount = 0;
   let negativeSum = 0;
   let array = [];
+  if (input == null || input.length < 1) {
+    return [];
+  }
   for (let i = 0; i < input.length; i++) {
     if (Math.sign(input[i]) >= 1) {
       positiveCount++;
     } else if (Math.sign(input[i]) === -1) {
-      negativeSum *= Math.abs(input[i]);
+      negativeSum += input[i];
     }
   }
   array.push(positiveCount, negativeSum);
-  return console.log(array);
+  return array;
 }
 
-countPositivesSumNegatives([1, 2, 3, 4, 5, -1, -2, -3, -4, -5, -10]);
+console.log(
+  countPositivesSumNegatives([
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15,
+  ])
+); // [10, -65]
 
 module.exports = countPositivesSumNegatives;
