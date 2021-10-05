@@ -1,4 +1,4 @@
-const countSheeps = require("../ArrayOfSheep");
+const countSheeps = require("./ArrayOfSheep.js");
 
 const arrayOfSheep = [
   true,

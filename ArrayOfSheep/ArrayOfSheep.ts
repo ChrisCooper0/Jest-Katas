@@ -34,7 +34,7 @@ const arrayOfSheep = [
 // }
 
 // For loop example
-function countSheeps(arrayOfSheep) {
+function countSheeps(arrayOfSheep: boolean[]): number {
   let count = 0;
   for (let i = 0; i < arrayOfSheep.length; i++) {
     if (arrayOfSheep[i] === true) {
