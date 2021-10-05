@@ -1,5 +1,5 @@
 const { expect } = require("@jest/globals");
-const getRealFloor = require("../AmericanFloors");
+const getRealFloor = require("./AmericanFloors");
 
 test("gets real floor number", () => {
   expect(getRealFloor(5)).toBe(4);
