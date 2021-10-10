@@ -1,5 +1,4 @@
 function remove(s) {
-  return s.replace(/!$/, "");
+    return s.replace(/!$/, "");
 }
-
 module.exports = remove;

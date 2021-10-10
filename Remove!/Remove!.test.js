@@ -1,4 +1,4 @@
-const remove = require("../Remove!");
+const remove = require("./Remove!");
 
 test("removes last exclamation mark from end of string", () => {
   expect(remove("Hi!!!")).toBe("Hi!!");
