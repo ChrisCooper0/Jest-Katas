@@ -1,4 +1,4 @@
-const isPalindrome = (str) => {
+const isPalindrome = (str: string): boolean => {
   const lowerStr = str.toLowerCase();
   const revStr = lowerStr.split("").reverse().join("");
   return lowerStr === revStr ? true : false;
