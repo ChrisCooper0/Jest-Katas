@@ -3,7 +3,7 @@
 // Digits can be a number or a string, and you should ensure it is not None and return an empty string.
 // To give you a little more excitement, the program will not only write the result of the sum, but also write all the sums used: 3 + 4 + 3 + 3 = 13.
 
-function sum(digits) {
+function sum(digits?: string | number) {
   if (typeof digits == "number") {
     digits = JSON.stringify(digits);
   }

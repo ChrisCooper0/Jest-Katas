@@ -1,4 +1,4 @@
-const sum = require("../SumOfDigits.js");
+const sum = require("./SumOfDigits.js");
 
 test("returns sum and calculation of digits (string or number)", () => {
   expect(sum("12345")).toBe("1 + 2 + 3 + 4 + 5 = 15");

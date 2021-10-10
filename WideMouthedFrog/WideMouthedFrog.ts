@@ -1,4 +1,4 @@
-const mouthSize = (animal) => {
+const mouthSize = (animal: string): string => {
   return animal === "alligator" ? "small" : "wide";
 };
 
