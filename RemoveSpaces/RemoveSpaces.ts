@@ -1,4 +1,4 @@
-function noSpace(x) {
+function noSpace(x: string): string {
   let trimmed = "";
   for (let i = 0; i < x.length; i++) {
     if (!x[i].includes(" ")) {
